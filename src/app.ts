@@ -2,6 +2,12 @@ import fastify from 'fastify';
 
 const server = fastify()
 
+server.get('/heakthcheck', async function () {
+    return {
+        status: "Health OK!"
+    }
+})
+
 const PORT = 3000;
 
 async function main() {
