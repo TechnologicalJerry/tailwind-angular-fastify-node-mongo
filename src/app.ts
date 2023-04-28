@@ -1,4 +1,5 @@
 import fastify from 'fastify';
+import userRoutes from './modules/users/user.routes';
 
 const server = fastify()
 
@@ -7,6 +8,10 @@ server.get('/heakthcheck', async function () {
         status: "Health OK!"
     }
 })
+
+async function main() {
+    server.register(userRoutes,{ prefix: 'api/isers'});
+}
 
 const PORT = 3000;
 
