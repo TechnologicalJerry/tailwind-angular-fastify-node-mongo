@@ -12,6 +12,8 @@ server.get('/heakthcheck', async function () {
 const PORT = 3000;
 
 async function main() {
+    server.register(userRoutes, { prefix: 'api/isers' });
+
     try {
         await server.listen(PORT, '0.0.0.0');
         console.log(`Fastify server running on localhost post: ${PORT}`);
