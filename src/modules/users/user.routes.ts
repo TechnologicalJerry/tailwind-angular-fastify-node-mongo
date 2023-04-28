@@ -1,3 +1,5 @@
 import astify from "fastify";
 
-async function userRoutes(){}
+async function userRoutes() { }
+
+export default userRoutes;
