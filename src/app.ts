@@ -9,10 +9,6 @@ server.get('/heakthcheck', async function () {
     }
 })
 
-async function main() {
-    server.register(userRoutes,{ prefix: 'api/isers'});
-}
-
 const PORT = 3000;
 
 async function main() {
