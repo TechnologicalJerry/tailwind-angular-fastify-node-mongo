@@ -1,5 +1,5 @@
-import astify from "fastify";
+import astify, { FastifyInstance } from "fastify";
 
-async function userRoutes() { }
+async function userRoutes(server: FastifyInstance) { }
 
 export default userRoutes;
