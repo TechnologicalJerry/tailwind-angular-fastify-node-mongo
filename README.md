@@ -1,1 +1,0 @@
-# typescript-fastify-node-prisma-postgre
