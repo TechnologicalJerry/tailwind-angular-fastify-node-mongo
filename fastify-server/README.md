@@ -1,1 +1,1 @@
-# typescript-fastify-node-prisma-postgre
+# tailwind-angular-fastify-node-mongo
